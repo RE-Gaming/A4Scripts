@@ -105,7 +105,7 @@ hdmi_drive:1=2
 hdmi_group:1=2 
 hdmi_mode:1=4
 hdmi_force_hotplug:1=1
-
+#gpio=45=op,dl
 
 [all]
 #gpu_mem=256

@@ -23,7 +23,7 @@ spiCLK = 11
 #GPIO Initialization
 spi = spidev.SpiDev()
 spi.open(spiBus, spiDevice)
-spi.max_speed_hz = 1000000
+spi.max_speed_hz = 800000
 spi.mode = 0b01
 
 #global min0
@@ -34,7 +34,7 @@ spi.mode = 0b01
 
 
 def joystickReading(channel):
-	joystickBuffer = spi.xfer(channel, 1000000, 10, 8)
+	joystickBuffer = spi.xfer(channel, 800000, 10, 8)
 	joystickValue = int((((joystickBuffer[0] & 0x0F) * 256) + joystickBuffer[1]) / 4)
 	#print(axis, joystickValue)
 	#print(LINE_UP, end=LINE_CLEAR)
@@ -66,10 +66,10 @@ def main():
 	print(values[2])
 	print(values[3])
 
-	if os.path.exists("/home/A4Scripts/joystickCalibration.txt"):
-		os.remove("/home/A4Scripts/joystickCalibration.txt")
+	if os.path.exists("/home/pi/A4Scripts/joystickCalibration.txt"):
+		os.remove("/home/pi/A4Scripts/joystickCalibration.txt")
 
-	f = open("/home/A4Scripts/joystickCalibration.txt", "w")
+	f = open("/home/pi/A4Scripts/joystickCalibration.txt", "w")
 	f.write(str(values[0]))
 	f.write("\n")
 	f.write(str(values[1]))
