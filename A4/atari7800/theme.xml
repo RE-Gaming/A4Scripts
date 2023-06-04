@@ -1,0 +1,35 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../carbon.xml</include>
+
+	<view name="system">
+		
+		<image name="ControllerOverlay" extra="true">
+			<path>./art/controller.svg</path>
+		</image>
+		
+		<image name="logo">
+			<path>./art/system.svg</path>
+        </image>
+		
+	</view>
+
+	<view name="basic, detailed">
+
+		<image name="logo">
+			<path>./art/system.svg</path>
+		</image>
+		
+		<image name="logo2" extra="true">
+			<path>./art/controller.svg</path>
+		</image>
+		
+	</view>
+
+	<view name="basic">		
+	</view>
+
+	<view name="detailed">
+	</view>
+	
+</theme>
