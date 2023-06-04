@@ -3,3 +3,4 @@
 cd
 git clone https://github.com/RE-Gaming/getUpdate
 sudo cp -r getUpdate/configs/* /opt/retropie/configs/
+sudo rm -r getUpdate
