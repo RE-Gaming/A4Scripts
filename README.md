@@ -13,3 +13,7 @@ File Descriptions <br />
 - **userInterface.py**: Python script run from autostart.sh. Handles all button mapping, joystick inputs, and software shutdown when power switch is turned to off position
 - **config.txt**: Updated config.txt file for the REG A4 specifically, configures the RPi CM4 to handle the screen, audio, USB, SPI, and external HDMI port 
 - **cmdline.txt**: Updated cmdline.txt file for the REG A4 specifically, hides all boot code from the user for cleaner startup experience
+- **multi_switch.sh**: Scripted used to close out the emulator and emulationstation during shutdown
+<br/>
+- **batteryCrit.png** and **batteryLow.png** are used to display battery status
+- **fastboot.png**, **fullboot.png**, and **joystick.png** are used as icons in the RetroPie menu
