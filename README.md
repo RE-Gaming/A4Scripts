@@ -15,5 +15,6 @@ File Descriptions <br />
 - **cmdline.txt**: Updated cmdline.txt file for the REG A4 specifically, hides all boot code from the user for cleaner startup experience
 - **multi_switch.sh**: Scripted used to close out the emulator and emulationstation during shutdown
 <br/>
+Images <br/>
 - **batteryCrit.png** and **batteryLow.png** are used to display battery status
 - **fastboot.png**, **fullboot.png**, and **joystick.png** are used as icons in the RetroPie menu
