@@ -1,0 +1,19 @@
+<theme>
+    <formatVersion>4</formatVersion>
+    <include>./carbon.xml</include>
+
+	<view name="system">
+			
+	</view>
+
+	<view name="basic, detailed">
+		
+	</view>
+
+	<view name="basic">		
+	</view>
+
+	<view name="detailed">
+	</view>
+	
+</theme>
